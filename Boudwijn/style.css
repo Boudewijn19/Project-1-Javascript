@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid black;*/
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #fff
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin: 5px 0;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: white;
+    transition: background-color 0.3s;
+}
+
+.sidebar button:hover {
+    background-color: #886c96;
+}
+
+.main-area {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fafafa;
+    overflow-y: auto;
+}
+
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+}/*Met docent gemaakt, en chatgpt*/
+
+.tekst{
+    margin-top: 30px;
+    width: 600px;
+}
+
+.img{
+    margin-right: 30px;
+}
+
+.Ervaring{
+    font-size: 17px;
+    width: 500px;
+}
+
+.leuk{
+    font-size: 17px;
+    width: 500px;
+}
+
+.tekstimg{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#Placeholder1{
+    height: 20vh;
+    width: 20vw;
+    justify-content: center;
+}
+
+#td1{
+    background-image: url("img/Placeholder-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
