@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html lang="nl">
+<html lang="nl" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,8 @@
 </header>
 
 <script>
-    alert('Welkom op mijn portfolio website!')
+    document.cookie = user="Cookies; path/ max-age = 3600"; //Zolang blijven de cookies.
+    alert(document.cookie); // Laat de cookies zien.
 </script>
 
 <section class="container">
@@ -38,8 +39,24 @@
         <a href="Contact-Form.html">
             <button>Contact</button>
         </a>
-
+        <a>
+            <button id="Light-Theme">Light Theme</button>
+        </a>
     </section>
+    <script>
+        const button = document.getElementById('Light-Theme');
+
+        button.addEventListener('click', () => {
+            document.body.classList.toggle('dark-theme');
+
+            // Veranderd de tekst van de knop naar Dark Theme als je erop klikt
+            if (document.body.classList.contains('dark-theme')) {
+                button.textContent = 'Dark Theme';
+            } else {
+                button.textContent = 'Light Theme';
+            }
+        });
+    </script>
     <section class="main-area">
 
         <h2>
@@ -65,7 +82,7 @@
             MAVO.<br>
             Ik heb mijn diploma in 1x gehaald. Na de middelbare school wist ik niet goed wat ik ging doen,<br>
             uiteindelijk heb ik een 1 jarige studie gedaan op het STC op de locatie Waalhaven. Ik heb het afgemaakt,<br>
-            maar ik ben niet door gegegaan in dat vakgebied want ik vond het halverwege al niet meer zo leuk.<br>
+            maar ik ben niet door gegaan in dat vakgebied want ik vond het halverwege al niet meer zo leuk.<br>
             typ 2 zinnen over dit
         </p>
 

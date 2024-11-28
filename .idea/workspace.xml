@@ -7,6 +7,7 @@
     <list default="true" id="c4a12a92-9819-43ce-afef-820b30f99263" name="Changes" comment="-">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Boudwijn/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Boudwijn/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boudwijn/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Boudwijn/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Boudwijn/talen.html" beforeDir="false" afterPath="$PROJECT_DIR$/Boudwijn/talen.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Boudwijn/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/Boudwijn/video.html" afterDir="false" />
     </list>
@@ -103,7 +104,11 @@
       <workItem from="1731933341873" duration="4000" />
       <workItem from="1731933592861" duration="14000" />
       <workItem from="1731933607464" duration="15000" />
-      <workItem from="1731934506521" duration="5295000" />
+      <workItem from="1731934506521" duration="5948000" />
+      <workItem from="1732543889268" duration="166000" />
+      <workItem from="1732544462669" duration="16000" />
+      <workItem from="1732544486029" duration="1668000" />
+      <workItem from="1732795583268" duration="4608000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <option name="closed" value="true" />
@@ -193,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732536930893</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="-">
+      <option name="closed" value="true" />
+      <created>1732543474131</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732543474131</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
