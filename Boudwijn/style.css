@@ -26,6 +26,12 @@ body.dark-theme {
     --text-color: white;
 }
 
+
+header, .sidebar, .main-area {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
 header {
     background-color: #f0f0f0;
     padding: 20px;
