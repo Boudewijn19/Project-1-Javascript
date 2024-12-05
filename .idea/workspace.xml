@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4a12a92-9819-43ce-afef-820b30f99263" name="Changes" comment="Begin van de dark theme op website en cookies">
+    <list default="true" id="c4a12a92-9819-43ce-afef-820b30f99263" name="Changes" comment="Begin van een begroeting maken">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Boudwijn/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Boudwijn/home.html" afterDir="false" />
     </list>
@@ -106,7 +106,7 @@
       <workItem from="1732544462669" duration="16000" />
       <workItem from="1732544486029" duration="1668000" />
       <workItem from="1732795583268" duration="7647000" />
-      <workItem from="1733384812277" duration="2901000" />
+      <workItem from="1733384812277" duration="3779000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <option name="closed" value="true" />
@@ -244,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733385083456</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Begin van een begroeting maken">
+      <option name="closed" value="true" />
+      <created>1733387980888</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1733387980888</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +272,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="-" />
     <MESSAGE value="Begin van de dark theme op website" />
+    <MESSAGE value="Bezig met een begroeting maken." />
     <MESSAGE value="Begin van de dark theme op website en cookies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Begin van de dark theme op website en cookies" />
+    <MESSAGE value="Begin van een begroeting maken" />
+    <option name="LAST_COMMIT_MESSAGE" value="Begin van een begroeting maken" />
   </component>
 </project>
