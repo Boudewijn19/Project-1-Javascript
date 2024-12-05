@@ -17,10 +17,16 @@
 </header>
 
 <script>
-    document.cookie = user="Cookies; path/ max-age = 3600"; //Zolang blijven de cookies.
-    alert(document.cookie); // Laat de cookies zien.
-    console.log(test)
+    // Zet een cookie
+    document.cookie = "user=Cookies; path=/; max-age=3600";
+
+    // Toon een melding over de cookies
+    alert("De cookie is gezet: " + document.cookie);
+
+    // Optioneel: Schrijf de cookies naar de console voor debugging
+    console.log("Huidige cookies: ", document.cookie);
 </script>
+
 
 <section class="container">
     <section class="sidebar">
