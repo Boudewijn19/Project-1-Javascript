@@ -17,16 +17,29 @@
 </header>
 
 <script>
-    // Zet een cookie
-    document.cookie = "user=Cookies; path=/; max-age=3600";
-
-    // Toon een melding over de cookies
-    alert("De cookie is gezet: " + document.cookie);
-
-    // Optioneel: Schrijf de cookies naar de console voor debugging
+    document.cookie = "user=Cookies; path=/; max-age=3600"; //Dit zet de cookie
+    alert("De cookie is gezet: " + document.cookie); //Toont de melding
     console.log("Huidige cookies: ", document.cookie);
 </script>
 
+<script> //Begin van een begroeting maken
+function getGreeting() {
+    const now = new Date();
+    const hours = now.getHours();
+
+    if (hours < 12) {
+        return "Goedemorgen!";
+    }
+    if (hours < 18) {
+        return "Goedemiddag!";
+    }
+    if (hours > 18, < 5) {
+        return "Goedeavond1!";
+    }
+
+}
+
+</script>
 
 <section class="container">
     <section class="sidebar">
@@ -62,7 +75,9 @@
             } else {
                 button.textContent = 'Light Theme';
             }
+            console.log
         });
+        //Met behulp van chatgpt
     </script>
     <section class="main-area">
 
@@ -90,7 +105,6 @@
             Ik heb mijn diploma in 1x gehaald. Na de middelbare school wist ik niet goed wat ik ging doen,<br>
             uiteindelijk heb ik een 1 jarige studie gedaan op het STC op de locatie Waalhaven. Ik heb het afgemaakt,<br>
             maar ik ben niet door gegaan in dat vakgebied want ik vond het halverwege al niet meer zo leuk.<br>
-            typ 2 zinnen over dit
         </p>
 
         <br><br>
