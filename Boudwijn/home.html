@@ -24,22 +24,23 @@
 
 <script> //Begin van een begroeting maken
 function getGreeting() {
+    console.log()
     const now = new Date();
     const hours = now.getHours();
 
     if (hours < 12) {
-        return "Goedemorgen!";
+        return "Goedemorgen!"; //Laat bericht zien voor 12 uur
     }
     if (hours < 18) {
-        return "Goedemiddag!";
-    }
-    if (hours > 18 || hours < 5) {
-        return "Goedeavond!";
+        return "Goedemiddag!"; //Laat bericht zien voor 18 uur en na 12 uur
     }
 
+    return "Goedeavond!";
 }
 
+console.log(getGreeting());
 </script>
+<!--Chatgpt heeft geholpen-->
 
 <section class="container">
     <section class="sidebar">
@@ -75,7 +76,7 @@ function getGreeting() {
             } else {
                 button.textContent = 'Light Theme';
             }
-            console.log
+            console.log()
         });
         //Met behulp van chatgpt
     </script>
