@@ -21,7 +21,7 @@
     alert("De cookie is gezet: " + document.cookie); //Toont de melding
     console.log("Huidige cookies: ", document.cookie);
 </script>
-
+<p id="begroeting">
 <script> //Begin van een begroeting maken
 function getGreeting() {
     console.log()
@@ -37,9 +37,10 @@ function getGreeting() {
 
     return "Goedeavond!";
 }
-
+document.getElementById('begroeting').textContent = getGreeting();
 console.log(getGreeting());
 </script>
+</p>
 <!--Chatgpt heeft geholpen-->
 
 <section class="container">
