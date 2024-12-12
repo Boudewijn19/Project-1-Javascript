@@ -122,8 +122,18 @@ footer {
     background-size: cover;
 }
 
-/*#begroeting {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    top: 0;*/
-/*}*/
+/*Zorgt ervoor dat je het niet ziet op grote beeldschermen*/
+@media (max-width: 1000px) {
+    #MyLinks {
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: slategrey;
+        height: 100vh;
+        margin: 0;
+        padding: 1em;
+        width: 7em;
+        flex-direction: column;
+        justify-content: start;
+    }
+}
