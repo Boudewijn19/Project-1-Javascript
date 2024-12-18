@@ -128,12 +128,19 @@ footer {
         position: fixed;
         top: 0;
         right: 0;
-        background-color: slategrey;
+        background-color: grey;
         height: 100vh;
         margin: 0;
         padding: 1em;
         width: 7em;
         flex-direction: column;
         justify-content: start;
+        transition: 0.5s;
     }
 }
+
+.hidden {
+    display: none;
+}
+
+

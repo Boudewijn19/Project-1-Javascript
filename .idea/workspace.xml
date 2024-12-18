@@ -109,7 +109,10 @@
       <workItem from="1732795583268" duration="7647000" />
       <workItem from="1733384812277" duration="6147000" />
       <workItem from="1733487625304" duration="5885000" />
-      <workItem from="1733991058816" duration="2193000" />
+      <workItem from="1733991058816" duration="5293000" />
+      <workItem from="1734092373825" duration="3833000" />
+      <workItem from="1734097190768" duration="2771000" />
+      <workItem from="1734510301049" duration="669000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <option name="closed" value="true" />
@@ -303,7 +306,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733492244058</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Hamburger menu css begin">
+      <option name="closed" value="true" />
+      <created>1733994089400</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1733994089400</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,6 +339,7 @@
     <MESSAGE value="Begin van een begroeting maken" />
     <MESSAGE value="Begroeting gemaakt." />
     <MESSAGE value="Week 3 planning toegevoegd." />
-    <option name="LAST_COMMIT_MESSAGE" value="Week 3 planning toegevoegd." />
+    <MESSAGE value="Hamburger menu css begin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hamburger menu css begin" />
   </component>
 </project>
