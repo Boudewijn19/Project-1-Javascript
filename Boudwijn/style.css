@@ -9,26 +9,26 @@
     padding: 0;
 }
 
-html, body {
+html, body, title {
     height: 100%;
     font-family: Arial, sans-serif;
-    background-color: white;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 body {
     display: flex;
     flex-direction: column;
-    /*background-color: #fff;*/
 }
 
 body.dark-theme {
     --background-color: black;
     --text-color: white;
-    /*background-color: black;*/
+
 }
 
 body.dark-theme .sidebar {
-    background-color: #222; /* Verander de achtergrond van de zijbalk */
+    background-color: #222;
 }
 
 header, .sidebar, .main-area {
@@ -36,6 +36,13 @@ header, .sidebar, .main-area {
     color: var(--text-color);
 }
 
+body.dark-theme header,
+body.dark-theme .sidebar,
+body.dark-theme .main-area {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+/*Hulp van chatgpt met de css dark theme.*/
 header {
     background-color: #f0f0f0;
     padding: 20px;
