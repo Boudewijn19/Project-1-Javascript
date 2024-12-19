@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4a12a92-9819-43ce-afef-820b30f99263" name="Changes" comment="">
+    <list default="true" id="c4a12a92-9819-43ce-afef-820b30f99263" name="Changes" comment="-">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Boudwijn/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Boudwijn/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Boudwijn/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Boudwijn/style.css" afterDir="false" />
@@ -112,7 +112,7 @@
       <workItem from="1733991058816" duration="5293000" />
       <workItem from="1734092373825" duration="3833000" />
       <workItem from="1734097190768" duration="2771000" />
-      <workItem from="1734510301049" duration="669000" />
+      <workItem from="1734510301049" duration="6617000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <option name="closed" value="true" />
@@ -314,7 +314,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733994089400</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="-">
+      <option name="closed" value="true" />
+      <created>1734511444979</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1734511444979</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +340,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="-" />
     <MESSAGE value="Begin van de dark theme op website" />
     <MESSAGE value="Bezig met een begroeting maken." />
     <MESSAGE value="Begin van de dark theme op website en cookies" />
@@ -340,6 +347,7 @@
     <MESSAGE value="Begroeting gemaakt." />
     <MESSAGE value="Week 3 planning toegevoegd." />
     <MESSAGE value="Hamburger menu css begin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hamburger menu css begin" />
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
 </project>

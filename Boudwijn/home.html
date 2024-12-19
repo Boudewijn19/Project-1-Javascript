@@ -18,8 +18,10 @@
 
 <!--Start voor de hamburger menu-->
 <section>
-    <a href="#home" class="acive"></a>
+    <button id="menu-toggle"><img src="img/hamburger-icoon.png" alt="Menu"></button>
+<!--    <a href="#home" class="acive"></a>-->
     <section id="MyLinks" class="hidden">
+        <button id="close-menu"><img src="img/x.png" alt="Sluit menu"></button>
         <a href="Home.html">Home</a>
         <a href="projecten.html">Projecten</a>
         <a href="talen.html">Talen</a>
@@ -29,18 +31,20 @@
 </section>
 
 <script>
-   const menuToggle = document.querySelector("menu-toggle");
-    let menuCloseButton = document.querySelector("close-menu");
+   const menuToggle = document.getElementById("menu-toggle");
+   const menuCloseButton = document.getElementById("close-menu");
+   const menu = document.getElementById("MyLinks");
 
-    menuCloseButton.addEventListener("click", () => {
-        menu.classList.add("hidden");
+    menuToggle.addEventListener("click", () => {
+        menu.classList.remove("hidden"); //Zo zie je het menu opkomen.
+        console.log("Menu geopend, hidden verwijderd");
+
+
     });
-console.log(close-menu)
-</script>
-
-<script>
-
-
+    menuCloseButton.addEventListener("click", () => {
+       menu.classList.add("hidden"); //Zo komt de .hidden weer en zorgt dat het menu verdwijnt.
+   });
+   console.log(menuCloseButton);
 </script>
 
 <script>

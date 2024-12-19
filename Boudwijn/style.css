@@ -125,7 +125,7 @@ footer {
 /*Zorgt ervoor dat je het niet ziet op grote beeldschermen*/
 @media (max-width: 1000px) {
     #MyLinks {
-        position: fixed;
+        position: relative;
         top: 0;
         right: 0;
         background-color: grey;
@@ -133,14 +133,47 @@ footer {
         margin: 0;
         padding: 1em;
         width: 7em;
+        display: flex;
         flex-direction: column;
         justify-content: start;
         transition: 0.5s;
     }
 }
 
+#menu-toggle {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#menu-toggle img {
+    padding: 0;
+    height: 20px;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+#close-menu {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#close-menu img {
+    padding: 0;
+    height: 20px;
+    justify-content: flex-end;
+    margin: 0;
+}
+
 .hidden {
     display: none;
 }
-
-
