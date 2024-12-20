@@ -19,7 +19,7 @@
 <!--Start voor de hamburger menu-->
 <section>
     <button id="menu-toggle"><img src="img/hamburger-icoon.png" alt="Menu"></button>
-    <!--    <a href="#home" class="acive"></a>-->
+    <!--<a href="#home" class="acive"></a>-->
     <section id="MyLinks" class="hidden">
         <button id="close-menu"><img src="img/x.png" alt="Sluit menu"></button>
         <a href="Home.html">Home</a>
@@ -36,14 +36,17 @@
     const menu = document.getElementById("MyLinks");
 
     menuToggle.addEventListener("click", () => {
-        menu.classList.remove("hidden"); //Zo zie je het menu opkomen.
+        menu.classList.add("open"); //Hierdoor opent het menu.
+        menu.classList.remove("hidden"); //Zo zie je het menulijst opkomen.
         console.log("Menu geopend, hidden verwijderd");
     });
 
     menuCloseButton.addEventListener("click", () => {
-        menu.classList.add("hidden"); //Zo komt de .hidden weer en zorgt dat het menu verdwijnt.
+        menu.classList.remove("open"); //Het menu sluit.
+        menu.classList.add("hidden"); //Zo komt de .hidden weer en zorgt dat de menulijst verdwijnt.
     });
     console.log(menuCloseButton);
+    //Dit zie je terug in de console.
 </script>
 
 <script>
@@ -51,6 +54,7 @@
     document.cookie = "Lastname=-; Expires=Sunday, 1 January 2030 12:00:00 UTC; path:/";
 
     console.log(document.cookie);
+    //Hierdoor wordt het gelogt in de console.
 </script>
 
 <p id="begroeting">
@@ -66,14 +70,41 @@
                 return "Goedemiddag!"; //Laat bericht zien voor 18 uur en na 12 uur.
             }
 
-            return "Goedeavond!";
+            return "Goedeavond!"; //Laat bericht zien na 18 uur.
         }
 
         document.getElementById('begroeting').textContent = getGreeting();
         console.log(getGreeting());
+        //Logt het in de console.
     </script>
 </p>
 <!--Chatgpt heeft geholpen-->
+
+<section id="countdown"></section>
+<script>
+    const startingMinutes = 10;
+    //Hierdoor start de timer met 10 minuten.
+    let time = startingMinutes * 60;
+
+    const countdownEl = document.getElementById("countdown");
+
+    setInterval(updatecountdown, 1000);
+
+    function updatecountdown() {
+        const minutes = Math.floor(time / 60);
+        //Dit zorgt ervoor dat de tijd door 60 wordt gedeeld.
+        let seconds = time % 60;
+        //Dit is de rest van wat er over is die gedeeld wordt door 60.
+
+        seconds = seconds < 10 ? '0' + seconds : seconds;
+        //Dit controleert of de waarde onder 10 is en zorgt ervoor dat er altijd 2 cijfers zijn, dus je iet niet 9, maar 09.
+
+        countdownEl.innerHTML = `${minutes}: ${seconds}`;
+        console.log(`${minutes}: ${seconds}`);
+        //Logt de timer in console.
+        time--;
+    }
+</script>
 
 <section class="container">
     <section class="sidebar">
@@ -195,9 +226,7 @@
 
 
                 </section>
-
             </section>
-
 
             <section class="img">
                 <a href="catmeme.html">
@@ -213,5 +242,6 @@
         </section>
     </section>
 </section>
+
 </body>
 </html>

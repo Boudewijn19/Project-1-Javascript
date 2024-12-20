@@ -43,6 +43,16 @@ body.dark-theme .main-area {
     color: var(--text-color);
 }
 /*Hulp van chatgpt met de css dark theme.*/
+
+#countdown {
+    display: inline-block;
+    align-items: center;
+    font-size: 50px;
+    margin: 0;
+    height: 70px;
+    width: 200px;
+}
+
 header {
     background-color: #f0f0f0;
     padding: 20px;
@@ -132,9 +142,9 @@ footer {
 /*Zorgt ervoor dat je het niet ziet op grote beeldschermen*/
 @media (max-width: 1000px) {
     #MyLinks {
-        position: relative;
+        position: absolute;
         top: 0;
-        right: 0;
+        left: 0;
         background-color: grey;
         height: 100vh;
         margin: 0;
@@ -144,6 +154,7 @@ footer {
         flex-direction: column;
         justify-content: start;
         transition: 0.5s;
+        z-index: 1001;
     }
 }
 
