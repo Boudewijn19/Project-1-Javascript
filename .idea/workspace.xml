@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4a12a92-9819-43ce-afef-820b30f99263" name="Changes" comment="De countdown is afgemaakt en alle functies doen het." />
+    <list default="true" id="c4a12a92-9819-43ce-afef-820b30f99263" name="Changes" comment="-" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +108,7 @@
       <workItem from="1733991058816" duration="5293000" />
       <workItem from="1734092373825" duration="3833000" />
       <workItem from="1734097190768" duration="2771000" />
-      <workItem from="1734510301049" duration="15961000" />
+      <workItem from="1734510301049" duration="16291000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <option name="closed" value="true" />
@@ -342,7 +342,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734724675570</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="-">
+      <option name="closed" value="true" />
+      <created>1734725012134</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1734725012134</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,10 +375,10 @@
     <MESSAGE value="Begroeting gemaakt." />
     <MESSAGE value="Week 3 planning toegevoegd." />
     <MESSAGE value="Hamburger menu css begin" />
-    <MESSAGE value="-" />
     <MESSAGE value="Hamburger menu afgemaakt." />
     <MESSAGE value="-Dark theme is gefixt en werkt op alle pagina's" />
     <MESSAGE value="De countdown is afgemaakt en alle functies doen het." />
-    <option name="LAST_COMMIT_MESSAGE" value="De countdown is afgemaakt en alle functies doen het." />
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
 </project>
